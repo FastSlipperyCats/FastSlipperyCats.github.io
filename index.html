@@ -1,61 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
-        <title>Sandcat | 54ndc47</title>
-        <link rel="shortcut icon" type="image/png" href="/gui/img/favicon.png"/>
-        <link rel="stylesheet" href="/gui/css/shared.css">
-        <link rel="stylesheet" href="/gui/css/navbar.css">
-        <link rel="stylesheet" href="/proxy/css/basic.css">
+        <meta charset="utf-8">
+        <Title>Types of cats</Title>
     </head>
-    <body style="margin-bottom: 100px">
-        <div class="topnav">
-          <a href="/">Home</a>
-          <a href="/plugin/proxy/gui" class="active">Proxy</a>
-          <div class="topnav-right">
-            <a href="/logout">Logout</a>
-          </div>
-        </div>
-        <div class="column" style="flex:100%; margin-top: 0;">
-            <center>
-                <div class="row-canvas">
-                    <div class="section-profile" style="display:block;">
-                        <div class="row">
-                            <div class="column section-border" style="flex: 25%;">
-                                    <div class="proxy" style="">
-                                        <img src="/proxy/img/redirect.png">
-                                        <h4 style="margin-bottom:-5px">Build Reverse Proxy</h4>
-                                        <p>Set reverse proxy configuration and launch a new proxy service</p>
-                                        <select id="proxy_name" name="proxy_name" >
-                                            <option disabled selected>Select a proxy type</option>
-                                            {% for p in proxy_types %}
-                                            <option id="{{ p }}" value="{{ p }}">{{ p }}</option>
-                                            {% endfor %}
-                                        </select>
-                                        <input id="cert_path" name="cert_path" placeholder="Provide a /path/to/cert_key.pem file (Default: plugins/proxy/conf/ssl_cert.pem)">
-                                        <input id="http_port" name="http_port" placeholder="Provide an http port (Default: 80)">
-                                        <input id="https_port" name="https_port" placeholder="Provide an https port (Default: 443)">
-                                        <input id="caldera_ip" name="caldera_ip" placeholder="Provide the IP address of caldera server (Default: localhost)">
-                                        <input id="caldera_port" name="caldera_port" placeholder="Provide the port caldera server is running on (Default: 8888)">
-                                        <select id="launch_proxy" name="launch_proxy">
-                                            <option disabled selected>Launch proxy?</option>
-                                            <option value="True">Render Config and Launch</option>
-                                            <option value="False">Just Render Config</option>
-                                        </select>
-                                        <button id="proxy_config_submit" class="button-success atomic-button" onclick="createProxy();">Create Reverse Proxy</button>
-                                        <div class="flashy">
-                                            <div id="flash-proxy-bar"></div>
-                                        </div>
-                                    </div>
-                            </div>
-                            <div class="column" style="flex: 75%;">
-                                <pre id="proxy_config"></pre>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </center>
-        </div>
+    <body>
+        <h1>Cats</h1>
+        <h2>Types of Cats</h2>
+        <li>Siamese cat</li>
+        <li>British shorthair</li>
+        <li>Main coon</li>
+        <li>persian cat</li>
+        <li>Ragdoll cats</li>
+        <li>shpinx</li>
+        <li>Abyssinian</li>
+        <li>american shorthair</li>
+        <li>burmeese</li>
+        <li>exotic shorthair</li>
+        <li>birman</li>
+        <li>scotish fold</li>
+        <li>bombay cat</li>
+        <li>siberian cat</li>
+        <li>norwigan forest cat</li>
+        <li>russian blue</li>
+        <li>Munchcin cats</li>
+        <li>American curl</li>
+        <li>American bobtail</li>
+        <li>devon rex</li>
+        <li>Blainese cat</li>
+        <li>oriental shorthair</li>
+        <li>chartruex</li>
+        <li>turkish angora</li>
+        <li>japanese bobtail</li>
+        <li>manx cat</li>
+        <li>American wirehair</li>
+        <li>Ragamuffin</li>
+        <li>Egiptian mau</li>
+        <li>Somail cat</li>
+        <li>himalayan cat</li>
+        <li>cornish rex</li>
+        <li>korat</li>
+        <li>toknese cat</li>
+        <li>selkirk rex</li>
+        <li>Ocicat</li>
+        <li>singapura cat</li>
+        <li>turkish van</li>
+        <li>british longhair</li>
+        <li>LaPerm</li>
+        <li>havana brown</li>
+        <li>chausie</li>
+        <li>burmilla</li>
+        <li>snowshoe cats</li>
+        <li>toyger</li>
+        <li>lykoi</li>
+        <li>Colorpoint shorthair</li>
+        <li>javanese cat</li>
+        <li>sokoke</li>
+        <li>austrailian mist</li>
+        <li>Khaoe Mane</li>
     </body>
-    <script src="/gui/jquery/jquery.js"></script>
-    <script src="/proxy/js/proxy.js"></script>
 </html>
