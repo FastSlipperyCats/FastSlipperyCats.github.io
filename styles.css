@@ -15,3 +15,7 @@ h3{
     padding-left: 45%;
     padding-right: 55%;
 }
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+  }
