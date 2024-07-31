@@ -6,3 +6,12 @@ h1{
 p{
     font-size: larger;
 }
+h2{
+    padding-left: 45%;
+    padding-right: 55%;
+}
+h3{
+    font-size: 25px;
+    padding-left: 45%;
+    padding-right: 55%;
+}
